@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
+gem 'bundler', '~> 2.0.2'
 
 ruby '2.6.2'
 
@@ -7,7 +8,6 @@ ruby '2.6.2'
 gem 'rails', '~> 5.2.3'
 # Use sqlite3 as the database for Active Record
 
-gem 'bundler', '~> 2.0.2'
 
 gem 'sqlite3'
 # Use Puma as the app server
